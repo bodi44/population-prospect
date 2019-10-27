@@ -1,0 +1,134 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #ecf0f1;
+    font-family: 'Cabin', sans-serif;
+}
+
+#vis-body {
+    border: 1px solid #000000;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 1050px;
+    padding: 30px;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+main {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#vis {
+    padding: 0;
+    margin: 0 auto;
+}
+
+#vis > canvas {
+    width: 100%;
+}
+
+.text-label {
+    position: absolute;
+}
+
+.variant-label {
+    color: #E74C3C;
+    font-weight: 700;
+}
+
+/*X-label*/
+.x-label {
+    top: -415px;
+    position: relative;
+}
+
+.x-label-text {
+    font-size: 14px;
+}
+
+.estimate {
+    color: #2980B9;
+    left: 230px;
+}
+
+.projection {
+    left: 630px;
+    color: #E74C3C;
+}
+
+/*Y-label*/
+.y-label {
+    position: relative;
+    left: 895px;
+    top: -290px;
+}
+
+.y-label-text {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.instant-replacement {
+    top: 3px;
+}
+
+.high-variant {
+    top: 17px;
+}
+
+.momentum {
+    top: 43px;
+}
+
+.medium-variant {
+    top: 126px;
+}
+
+.zero-migration {
+    top: 137px;
+}
+
+.constant-fertility {
+    top: 157px;
+}
+
+.constant-mortality {
+    top: 168px;
+}
+
+.no-change {
+    top: 192px;
+}
+
+.low-variant {
+    top: 217px;
+}
+
+.vis-title {
+    color: #4D4D4D;
+    margin: 0 0 0 40px;
+    font-weight: 800;
+}
+
+.secondary {
+    font-weight: 500;
+}
+
+footer {
+    width: auto;
+    margin-left: auto;
+    letter-spacing: 1px;
+    color: #636E72;
+    font-size: 14px;
+    align-self: flex-end;
+    display: block;
+}

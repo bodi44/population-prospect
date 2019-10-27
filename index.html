@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.7.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.0.0-beta.10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@5.1.3"></script>
+    <title>Ukraine Population Prospects</title>
+</head>
+<body>
+<div id="vis-body">
+    <header>
+        <h1 class="vis-title">Ukraine Population Prospects</h1>
+        <h3 class="vis-title secondary">Total population, million</h3>
+    </header>
+
+    <main>
+        <div id="vis"></div>
+
+        <section class="x-label">
+            <div class="text-label x-label-text estimate">
+                estimate
+            </div>
+            <div class="text-label x-label-text projection">
+                projection
+            </div>
+        </section>
+
+        <section class="y-label">
+            <div class="text-label y-label-text instant-replacement">
+                instant replacement
+            </div>
+            <div class="text-label y-label-text variant-label high-variant">
+                high variant
+            </div>
+            <div class="text-label y-label-text momentum">
+                momentum
+            </div>
+            <div class="text-label y-label-text variant-label medium-variant">
+                medium variant
+            </div>
+            <div class="text-label y-label-text zero-migration">
+                zero migration
+            </div>
+            <div class="text-label y-label-text constant-fertility">
+                constant fertility
+            </div>
+            <div class="text-label y-label-text constant-mortality">
+                constant mortality
+            </div>
+            <div class="text-label y-label-text no-change">
+                no change
+            </div>
+            <div class="text-label y-label-text variant-label low-variant">
+                low variant
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Data: UN World Population Prospects
+    </footer>
+</div>
+
+<script src="visualization.js"></script>
+</body>
+</html>
