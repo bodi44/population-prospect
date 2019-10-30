@@ -5,7 +5,7 @@ let vlSpec = {
   },
   width: 850,
   height: 400,
-  background: '#ecf0f1',
+  background: '#F3F7F7',
   layer: [
     {
       transform: [{
@@ -13,7 +13,7 @@ let vlSpec = {
       }],
       mark: {
         type: 'line',
-        color: '#2980B9',
+        color: '#3288bd',
       },
       encoding: {
         x: {
@@ -81,7 +81,7 @@ let vlSpec = {
           field: 'type',
           type: 'nominal',
           scale: {
-            range: ['#E74C3C'],
+            range: ['#d53e4f'],
           },
           legend: null,
         },
@@ -92,6 +92,8 @@ let vlSpec = {
     axis: {
       ticks: false,
       domain: false,
+      domainColor: '#5D646F',
+      labelColor: '#5D646F',
     },
     axisRight: {},
     view: { stroke: 'transparent' },

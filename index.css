@@ -3,13 +3,14 @@ html, body {
     padding: 0;
     width: 100%;
     height: 100%;
-    background: #ecf0f1;
-    font-family: 'Cabin', sans-serif;
+    background: #F3F7F7;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 #vis-body {
     border: 1px solid #000000;
     margin: 20px auto 0 auto;
+    color: #5D646F;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,6 +26,7 @@ header {
 main {
     margin-bottom: 20px;
     position: relative;
+    font-size: 13px;
 }
 
 #vis {
@@ -41,8 +43,8 @@ main {
 }
 
 .variant-label {
-    color: #E74C3C;
-    font-weight: 700;
+    color: #d53e4f;
+    font-weight: bolder;
 }
 
 /*X-label*/
@@ -56,13 +58,13 @@ main {
 }
 
 .estimate {
-    color: #2980B9;
+    color: #3288bd;
     left: 230px;
 }
 
 .projection {
     left: 630px;
-    color: #E74C3C;
+    color: #d53e4f;
 }
 
 /*Y-label*/
@@ -114,21 +116,24 @@ main {
 }
 
 .vis-title {
-    color: #4D4D4D;
+    color: #5D646F;
     margin: 0 0 0 40px;
     font-weight: 800;
+    font-size: 30px;
 }
 
 .secondary {
     font-weight: 500;
+    font-size: 18px;
 }
 
 footer {
     width: auto;
     margin-left: auto;
     letter-spacing: 1px;
-    color: #636E72;
-    font-size: 14px;
+    color: #5D646F;
+    font-weight: 600;
+    font-size: 13px;
     align-self: flex-end;
     display: block;
 }
